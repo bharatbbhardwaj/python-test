@@ -1,0 +1,8 @@
+a = int(input("enter first number="))
+b = int(input("enter second number="))
+c = a + b
+if c in range(15, 20):
+    print("20")
+
+else:
+    print(c)
